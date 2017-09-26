@@ -1,5 +1,1 @@
-python:
-  - 3.6.2
 script: python tests.py
-after_success:
-  - coveralls
