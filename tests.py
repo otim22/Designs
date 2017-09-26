@@ -4,6 +4,9 @@ import unittest
 
 class Test(unittest.TestCase):
 
+    def setup(self):
+        print("sometext")
+
     # Ensure that Flask was set up correctly
     def test_index(self):
         tester = app.test_client(self)
@@ -16,7 +19,7 @@ class Test(unittest.TestCase):
         response = tester.get('/signin', content_type='html/text')
         self.assertIn(b'Please sign in', response.data)
 
-# Ensure that the signin page loads correctly
+    # Ensure that the signin page loads correctly
     def test_signup_page_loads(self):
         tester = app.test_client(self)
         response = tester.get('/signup', content_type='html/text')
