@@ -2,7 +2,7 @@ from app import app
 import unittest
 
 
-class FlaskTestCase(unittest.TestCase):
+class Test(unittest.TestCase):
 
     # Ensure that Flask was set up correctly
     def test_index(self):
