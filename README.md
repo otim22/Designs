@@ -1,4 +1,4 @@
-# yummyRecipes [![Build Status](https://travis-ci.org/otim22/yummyRecipes.svg?branch=master)](https://travis-ci.org/otim22/yummyRecipes) . [![Coverage Status](https://coveralls.io/repos/github/otim22/yummyRecipes/badge.svg?branch=master)](https://coveralls.io/github/otim22/yummyRecipes?branch=master)
+# yummyRecipes [![Build Status](https://travis-ci.org/otim22/yummyRecipes.svg?branch=master)](https://travis-ci.org/otim22/yummyRecipes) | [![Coverage Status](https://coveralls.io/repos/github/otim22/yummyRecipes/badge.svg?branch=master)](https://coveralls.io/github/otim22/yummyRecipes?branch=master)
 
 This a simple flask application
 
