@@ -2,49 +2,48 @@
 
 {% block content %}  
 <div class="jumbotron">
-    <p><a class="btn btn-lg btn-success" href="#" role="button">Create Account</a></p>
+    <p><a class="btn btn-lg btn-success" href="{{ url_for('signup') }}" role="button">Create Account</a></p>
 </div>
 
-<div class="row marketing">
-    <div class="row">
-        <div class="col-lg-4">
-            <a href="#" class="thumbnail">
-              <img src="{{ url_for('static', filename = 'Vegetables.jpeg') }}" alt="Vegetables">
-            </a>
-        </div>
-        <div class="col-lg-8">
-            <h3>Vegetables</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-        </div>
+<div class="row">
+    <div class="col-lg-4">
+        <a href="#" class="thumbnail">
+          <img src="{{ url_for('static', filename = 'vegetables.jpeg') }}" alt="Vegetables">
+        </a>
+    </div>
+    <div class="col-lg-8">
+        <h3>Vegetables</h3>
+        <p>Donec id elit non mi porta gravida at eget metus.</p>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row">
+    <div class="col-lg-8">
+        <h3>Chaps</h3>
+        <p>Donec id elit non mi porta gravida at eget metus.</p>
     </div>
 
-    <hr class="featurette-divider">
+    <div class="col-lg-4">
+        <a href="#" class="thumbnail">
+          <img src="{{ url_for('static', filename = 'chaps.jpeg') }}" alt="Chaps">
+        </a>
+    </div>  
+</div>
 
-    <div class="row">
-        <div class="col-lg-8">
-            <h3>Chaps</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-        </div>
+<hr class="featurette-divider">
 
-        <div class="col-lg-4">
-            <a href="#" class="thumbnail">
-              <img src="{{ url_for('static', filename = 'chaps.jpeg') }}" alt="Chaps">
-            </a>
-        </div>  
+<div class="row">
+    <div class="col-lg-4">
+        <a href="#" class="thumbnail">
+          <img src="{{ url_for('static', filename = 'beans.jpeg') }}" alt="Bean Soup">
+        </a>
     </div>
-    
-    <hr class="featurette-divider">
 
-    <div class="row">
-         <div class="col-lg-4">
-            <a href="#" class="thumbnail">
-              <img src="{{ url_for('static', filename = 'beans.jpeg') }}" alt="Bean Soup">
-            </a>
-        </div>
-
-        <div class="col-lg-8">
-            <h3>Bean Soup</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-        </div>
+    <div class="col-lg-8">
+        <h3>Bean Soup</h3>
+        <p>Donec id elit non mi porta gravida at eget metus.</p>
     </div>
-    {% endblock %}
+</div>
+{% endblock %}
